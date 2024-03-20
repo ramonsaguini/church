@@ -1,0 +1,79 @@
+.slide-text {
+  width: 300px; /* Largura do texto */
+  padding: 20px; /* Espaçamento interno do texto */
+  box-sizing: border-box; /* Garante que o padding não afete a largura total */
+}
+
+.slide-img {
+  width: 100%; /* Define a largura da imagem como 100% */
+  max-width: 500px; /* Define a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+.text{
+  font-family: "Brygada 1918", serif;
+  font-size: 50px;
+  color: red;
+}
+.text2{
+  font-family: "Brygada 1918", serif;
+  font-size: 25px;
+  color: red;
+}
+
+.img-maceio{
+  max-width: 50px;
+}
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+/* Ícone das setas */
+.slick-prev:before,
+.slick-next:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transition: all 0.3s ease;
+}
+
+/* Estilo da seta anterior */
+.slick-prev {
+  left: 20px;
+}
+
+.slick-prev:before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+/* Estilo da próxima seta */
+.slick-next {
+  right: 20px;
+}
+
+.slick-next:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+/* Estilo das setas quando o mouse passa por cima */
+.slick-prev:hover:before,
+.slick-next:hover:before {
+  border-color: #ff0000;
+}

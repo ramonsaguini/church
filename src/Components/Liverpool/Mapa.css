@@ -1,0 +1,50 @@
+.map-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.map-text {
+  margin-left: 20px;
+}
+
+.map-text:hover {
+  margin-left: 20px;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.img-mapa {
+  max-width: 80%; /* Para garantir que a imagem se ajuste ao tamanho do contêiner */
+}
+
+@media (max-width: 767px) {
+  .map-info {
+    flex-direction: column; /* Altera a direção do flex para coluna */
+  }
+
+  .map-text {
+    margin-left: 0; /* Remove a margem lateral para centralizar o texto na versão móvel */
+    margin-top: 20px; /* Adiciona uma margem superior para separar o texto da imagem */
+  }
+}
+
+@media (max-width: 767px) {
+  .map-info {
+    flex-direction: column;
+  }
+
+  .map-text {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.2;
+    width: 90%; 
+  }
+
+  .img-mapa {
+    max-width: 90%;
+  }
+}
