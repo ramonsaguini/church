@@ -5,8 +5,8 @@ import './RedesSociais.css';
 
 const RedesSociais = () => {
   return (
-    <div className='main'>
-      <div className='container'>
+    <div className='main-container'>
+      <div className='second-container'>
         <div className="social-icons">
           <h2>Nossas Redes Sociais</h2>
         </div>

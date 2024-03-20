@@ -1,8 +1,8 @@
-.main{
+.main-container{
   display: flex;
   justify-content: center;
 }
-.container{
+.second-container{
   margin: 30px;
   padding: 20px;
   max-width: 500px;
