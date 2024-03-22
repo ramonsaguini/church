@@ -23,7 +23,7 @@ const Eventos = () => {
     
       <div className="slide-container">
         <div className="text-center">
-          <p className='textp'><img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" />  Galeria  </p>
+          <p className='textp'><img className='img-manchester' src="../img/manah-logo-black.jpg" alt="" />  Galeria  </p>
 
         </div>
         <Slider {...settings} className="slider">

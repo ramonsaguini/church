@@ -11,7 +11,7 @@ function YouTubeVideo() {
       <div className='container-video'>
         
         <p className='textp'>
-          <img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" />
+          <img className='img-manchester' src="../img/manah-logo-black.jpg" alt="" />
            Cultos
         </p>
         <a href="https://www.youtube.com/@MANAHCHURCH/featured" target="_blank" rel="noopener noreferrer">

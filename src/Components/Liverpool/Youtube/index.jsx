@@ -10,7 +10,7 @@ function YouTubeVideo() {
       <div className='principal-video'>
         <div className='container-video'>
           <p className='textp'>
-            <img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" />
+            <img className='img-manchester' src="../img/manah-logo-black.jpg" alt="" />
              Cultos
           </p>
           <a href="https://www.youtube.com/channel/UC_nx71jlQ9khBIIBZ5cLaLg" target="_blank" rel="noopener noreferrer">
