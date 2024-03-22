@@ -7,7 +7,7 @@ import imagens from '../imagensMaceio.json';
 
 const Eventos = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
