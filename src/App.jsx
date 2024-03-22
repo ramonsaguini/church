@@ -6,6 +6,7 @@ import Liverpool from './Page/Liverpool';
 import Manchester from './Page/Manchester';
 import Maceio from './Page/Maceio';
 import Btn from './Components/Btn';
+import Sobre from './Page/Sobre';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path='/Liverpool' element={<Liverpool />} />
         <Route path='/Manchester' element={<Manchester />} />
         <Route path='/Maceio' element={<Maceio />} />
+        <Route path='/Sobre' element={<Sobre />} />
+
       </Routes>
       <Btn />
       <Footer />

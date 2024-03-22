@@ -22,9 +22,8 @@ const Eventos = () => {
   return (
     <div className="slide-container">
       <div className="text-center">
-        <img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" />
-        <p className='text'>MANCHESTER</p>
-        <p className='text2'>Nossa Galeria</p>
+        <p className='textp'><img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" /> Galeria  </p>
+        
       </div>
       <Slider {...settings} className="slider">
         {imagens.map((imagem) => (
