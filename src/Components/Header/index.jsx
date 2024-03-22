@@ -48,7 +48,7 @@ function Navbar() {
               <a className="nav-link " href="./Sobre">Sobre</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link " href="./Missoes">Missões</a>
+              <a className="nav-link " href="https://www.instagram.com/escolademissoesmanah/" target='_black'>Missões</a>
             </li>
 
           </ul>

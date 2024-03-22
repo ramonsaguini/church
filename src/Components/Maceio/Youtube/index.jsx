@@ -1,70 +1,30 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './index.css';
-import YoutubeApiKey from '../../../../YoutubeApikey';
 
 function YouTubeVideo() {
-  const [videoInfo, setVideoInfo] = useState(null);
-  
-  useEffect(() => {
-    fetchMostRecentVideo();
-  }, []);
-  
-  
-  const apiKey = YoutubeApiKey();
-  const channelId = 'UCaSzCVzO1Qhbd53nKBgOKAA';
-
-  const fetchMostRecentVideo = async () => {
-    try {
-      const response = await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&order=date&type=video&key=${apiKey}`);
-      const data = await response.json();
-      if (data.items && data.items.length > 0) {
-        const mostRecentVideo = data.items[0];
-        const liveBroadcastContent = mostRecentVideo.snippet.liveBroadcastContent;
-        let startDate = '';
-        if (liveBroadcastContent === 'live') {
-          startDate = mostRecentVideo.snippet.publishedAt;
-        } else {
-          startDate = mostRecentVideo.snippet.publishedAt;
-        }
-        setVideoInfo({
-          videoId: mostRecentVideo.id.videoId,
-          title: mostRecentVideo.snippet.title,
-          startDate: formatDate(startDate),
-        });
-      } else {
-        console.error('No videos found for the given channel.');
-      }
-    } catch (error) {
-      console.error('Error fetching most recent video:', error);
-    }
-  };
-
-  const formatDate = (dateString) => {
-    const date = new Date(dateString);
-    const day = date.getDate() -1;
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-    return `${day}/${month}/${year}`;
-  };
-
-  if (!videoInfo) {
-    return <div>Loading...</div>;
-  }
-
   return (
+    <div>
+      <div className="text-center textp">
+      <h1>Seja Bem-Vindo a Manah Maceió!</h1>
+    </div>
     <div className='principal-video'>
       <div className='container-video'>
-        <p className='textp'><img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" /> Culto - {videoInfo.startDate}</p>
-        <iframe
-          src={`https://www.youtube.com/embed/${videoInfo.videoId}`}
-          width="80%"
-          height="500px"
-          title="YouTube video player"
-          frameBorder="0"
-          allowFullScreen
-          className='centralizar'
-        ></iframe>
+        
+        <p className='textp'>
+          <img className='img-manchester' src="../../../../../public/img/manah-logo-black.jpg" alt="" />
+           Cultos
+        </p>
+        <a href="https://www.youtube.com/@MANAHCHURCH/featured" target="_blank" rel="noopener noreferrer">
+          <img
+            src="../../../../img/youtube1.png"
+            alt="Link para o canal do YouTube"
+            width="50%"
+            height="auto"
+            className='centralizar'
+          />
+        </a>
       </div>
+    </div>
     </div>
   );
 }

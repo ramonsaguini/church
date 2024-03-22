@@ -1,5 +1,5 @@
 const YoutubeApiKey = () => {
-  const apiKey = 'AIzaSyCp7cPfWZv9jFr20-c3qcre3mdRu4rbjME';
+  const apiKey = 'AIzaSyDnFPQVzpZQ8pe0D-wGlEIa940tRFnNdos';
   return apiKey;
 };
 
