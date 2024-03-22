@@ -23,7 +23,7 @@ function Main() {
         </div>
         <div className='text-center text-decoration-none'>
           <Link to="/Maceio" className="text-decoration-none">
-            <img src="../../../../public/img/manah-logo-black.jpg" alt="maceio" className="circle-image img-locals" />
+            <img src="../../../../../public/img/manah-logo-black.jpg" alt="maceio" className="circle-image img-locals" />
             <p className='black'>Maceio</p>
           </Link>
         </div>
