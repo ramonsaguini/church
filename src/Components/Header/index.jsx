@@ -55,7 +55,7 @@ function Navbar() {
         </div>
         <div className="nav-item dropdown"> {/* Movido para a direita */}
           <button className="btn btn-secondary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-            {language === 'pt' ? <img src='/img/brasil.png' style={{ width: '20px', marginRight: '5px' }} alt="Bandeira do Brasil" /> : <img src='/img/reinoUnido.png' style={{ width: '20px', marginRight: '5px' }} alt="Bandeira do Reino Unido" />}
+            {language === 'pt' ? <img src='/img/brasil.png' style={{ width: '20px', marginRight: '5px' }} alt="Bandeira do Brasil" /> : <img src='./img/reinoUnido.png' style={{ width: '20px', marginRight: '5px' }} alt="Bandeira do Reino Unido" />}
 
           </button>
           <ul className="dropdown-menu" aria-labelledby="languageDropdown">
