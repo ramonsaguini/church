@@ -39,9 +39,9 @@ function Navbar() {
                 Localizações
               </a>
               <ul className={`dropdown-menu ${dropdownOpen ? 'show' : ''}`} aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="./Manchester">Manchester</a></li>
-                <li><a className="dropdown-item" href="./Liverpool">Liverpool</a></li>
-                <li><a className="dropdown-item" href="./Maceio">Maceio</a></li>
+                <li><a className="dropdown-item" href="/Manchester">Manchester</a></li>
+                <li><a className="dropdown-item" href="/Liverpool">Liverpool</a></li>
+                <li><a className="dropdown-item" href="/Maceio">Maceio</a></li>
               </ul>
             </li>
             <li className="nav-item">
