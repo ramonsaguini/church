@@ -14,10 +14,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path='/Liverpool' element={<Liverpool />} />
-        <Route path='/Manchester' element={<Manchester />} />
-        <Route path='/Maceio' element={<Maceio />} />
-        <Route path='/Sobre' element={<Sobre />} />
+        <Route path='./Liverpool' element={<Liverpool />} />
+        <Route path='./Manchester' element={<Manchester />} />
+        <Route path='./Maceio' element={<Maceio />} />
+        <Route path='./Sobre' element={<Sobre />} />
 
       </Routes>
       <Btn />
