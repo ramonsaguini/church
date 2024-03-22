@@ -16,11 +16,6 @@
   margin-top: 20px; /* Espaçamento entre o texto e o vídeo */
 }
 
-.img-manchester {
-  width: 100px; /* Define a largura da imagem */
-  height: auto; /* Mantém a proporção da imagem */
-}
-
 .centralizar {
   display: block; /* Define o elemento como bloco */
   margin: 0 auto; /* Centraliza horizontalmente */
@@ -36,7 +31,4 @@
     margin-top: 10px; /* Reduz o espaçamento entre o texto e o vídeo */
   }
 
-  .img-manchester {
-    width: 80px; /* Reduz a largura da imagem */
-  }
 }
