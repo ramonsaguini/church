@@ -10,18 +10,14 @@
   height: auto; /* Mantém a proporção da imagem */
   margin: 0 auto; /* Centraliza a imagem horizontalmente */
 }
-.text{
+.textp{
   font-family: "Brygada 1918", serif;
-  font-size: 50px;
-  color: red;
-}
-.text2{
-  font-family: "Brygada 1918", serif;
-  font-size: 25px;
+  font-size: 40px;
   color: red;
 }
 
-.img-maceio{
+
+.img-manchester{
   max-width: 50px;
 }
 .slick-prev,
@@ -77,3 +73,5 @@
 .slick-next:hover:before {
   border-color: #ff0000;
 }
+
+

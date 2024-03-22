@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
-import Eventos from '../Components/Manchester/Eventos.jsx';
-import Mapa from '../Components/Manchester/Mapa.jsx';
-import '../Components/Manchester/Eventos.css';
-import '../Components/Manchester/Mapa.css';
-import RedesSociais from '../Components/Manchester/RedesSociais.jsx';
-import YouTubeVideo from '../Components/Manchester/youtube.jsx';
+import Eventos from '../Components/Manchester/NossosCultos/index.jsx';
+import Mapa from '../Components/Manchester/Mapa/index.jsx';
+import '../Components/Manchester/NossosCultos/index.css';
+import '../Components/Manchester/Mapa/index.css';
+import RedesSociais from '../Components/Manchester/RedesSociais/index.jsx';
+import YouTubeVideo from '../Components/Manchester/Youtube/index.jsx';
 
 
 
@@ -17,6 +17,7 @@ function Manchester() {
       <Eventos />
       <Mapa />
       <RedesSociais />
+      
       
     
       </>

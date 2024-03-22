@@ -1,5 +1,5 @@
 import React from 'react';
-import './RedesSociais.css'; // You can define additional styling in this CSS file
+import './index.css'; // You can define additional styling in this CSS file
 
 const RedesSociais = () => {
   return (
@@ -10,27 +10,24 @@ const RedesSociais = () => {
         </div>
         <div className="social-icons">
           <div className="social-icon">
-            <a href="https://facebook.com">
+            <a href="https://www.facebook.com/profile.php?id=100086229477468" target='_blank'>
               <img className='facebook' src="/img/facebook.png" width={40} alt="Facebook" />
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://twitter.com">
-              <img className='twitter' src="/img/twitter.png" width={40} alt="Twitter" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a href="https://instagram.com">
+            <a href="https://www.instagram.com/explore/locations/106079852286419/manah-church-liverpool/" target='_blank'>
               <img className='instagram' src="/img/instagram.png" width={40} alt="Instagram" />
             </a>
           </div>
           <div className="social-icon">
-            <a href="https://youtube.com">
+            <a href="https://www.youtube.com/@manahchurchmanchester5098" target='_blank'>
               <img className='youtube' src="/img/youtube.png" width={40} alt="YouTube" />
             </a>
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import { useEffect } from 'react';
-import Eventos from '../Components/Maceio/Eventos.jsx';
-import Mapa from '../Components/Maceio/Mapa.jsx';
-import '../Components/Maceio/Eventos.css';
-import '../Components/Maceio/Mapa.css';
-import RedesSociais from '../Components/Maceio/RedesSociais.jsx';   
+import Eventos from '../Components/Maceio/NossosCultos/index.jsx';
+import Mapa from '../Components/Maceio/Mapa/index.jsx';
+import '../Components/Maceio/NossosCultos/index.css';
+import '../Components/Maceio/Mapa/index.css';
+import RedesSociais from '../Components/Maceio/RedesSociais/index.jsx';
+import YouTubeVideo from '../Components/Maceio/Youtube/index.jsx';
 
 
 
@@ -12,9 +13,12 @@ function Maceio() {
 
   return (
     <>
+      <YouTubeVideo/>
       <Eventos />
-      <RedesSociais/>
       <Mapa />
+      <RedesSociais />
+      
+      
     
       </>
     

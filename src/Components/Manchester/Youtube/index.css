@@ -1,0 +1,42 @@
+.principal-video {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin: 10px auto; /* Margem automática nas laterais */
+}
+
+.container-video {
+  text-align: center;
+}
+
+.container-video iframe {
+  max-width: 100%;
+  max-height: 400px;
+}
+
+.textp {
+  margin-top: 20px; /* Espaçamento entre o texto e o vídeo */
+}
+
+.img-manchester {
+  width: 100px; /* Define a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.centralizar {
+  display: block; /* Define o elemento como bloco */
+  margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Media query para dispositivos com largura máxima de 600 pixels (dispositivos móveis) */
+@media (max-width: 600px) {
+  .container-video {
+    width: 100%; /* Define a largura do contêiner de vídeo como 100% para ocupar toda a largura da tela */
+  }
+
+  .textp {
+    margin-top: 10px; /* Reduz o espaçamento entre o texto e o vídeo */
+  }
+
+  .img-manchester {
+    width: 80px; /* Reduz a largura da imagem */
+  }
+}

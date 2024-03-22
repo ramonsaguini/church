@@ -1,5 +1,5 @@
 import React from 'react';
-import './Mapa.css';
+import './index.css';
 
 const Mapa = () => {
   return (
@@ -8,7 +8,7 @@ const Mapa = () => {
         <img className='img-mapa' src="../../../../public/img/Manchester/mapa.png" alt="mapa" />
       </a>
       <div className="map-text" onClick={() => window.open('https://www.google.com/maps?q=194+Chapel+St,+Salford+M3+6BY', '_blank')}>
-        <h2>Nosso endereço</h2>
+      <h2> <img src="../../../../../public/img/google-maps.png" width={30} alt="" /> Endereço <img width={50} src="../../../../../public/img/house.png" alt="" /> </h2>
         <p>194 Chapel St. Salford, M3 6BY, Manchester, UK</p>
       </div>
     </div>
